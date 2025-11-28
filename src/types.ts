@@ -17,6 +17,7 @@ export interface Project {
   period: string;
   description: string[];
   tech?: string[];
+  link?: string;
 }
 
 export interface Certification {

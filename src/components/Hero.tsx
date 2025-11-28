@@ -6,17 +6,17 @@ const Hero: React.FC = () => {
   return (
     <section
       id="about"
-      className="relative min-h-screen flex flex-col items-center justify-center pt-16 overflow-hidden"
+      className="relative z-0 min-h-screen flex flex-col items-center justify-center pt-15 overflow-hidden"
     >
       {/* Background Ambience - mimicking the dreamy clouds */}
-      <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
-        <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] rounded-full bg-serene-600/20 blur-[100px] animate-pulse"></div>
-        <div className="absolute bottom-[-10%] right-[-10%] w-[60%] h-[60%] rounded-full bg-serene-700/20 blur-[120px]"></div>
-        <div className="absolute top-[20%] right-[10%] w-[30%] h-[30%] rounded-full bg-accent-gold/5 blur-[80px]"></div>
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
+        <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] rounded-full bg-serene-600/30 blur-[80px] animate-pulse"></div>
+        <div className="absolute bottom-[-10%] right-[-10%] w-[60%] h-[60%] rounded-full bg-serene-700/30 blur-[100px]"></div>
+        <div className="absolute top-[20%] right-[10%] w-[30%] h-[30%] rounded-full bg-accent-gold/10 blur-[60px]"></div>
       </div>
 
       {/* Main welcome section */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="mb-6 inline-block">
           <span className="py-1 px-3 rounded-full bg-serene-500/10 text-serene-300 text-sm border border-serene-500/20">
             Welcome to my portfolio

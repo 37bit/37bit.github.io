@@ -69,7 +69,8 @@ export const PROJECTS: Project[] = [
       "Analyzed a research methodology on semantic entropy for hallucination detection and integrated a tailored version of the technique.",
       "Conducted adversarial text-perturbation attacks (CLARE and similar methods)."
     ],
-    tech: ["Python", "LLM", "Adversarial AI"]
+    tech: ["Python", "LLM", "Adversarial AI"],
+    link: "https://github.com/37bit/LLM-Safety-Eval"
   },
   {
     title: "Analysis of Ransomware Gangs in 2024",
@@ -79,7 +80,8 @@ export const PROJECTS: Project[] = [
       "Cleaned and correlated scraped data with OSINT to uncover underlying trends.",
       "Communicated insight using Tableau charts, linking empirical data to extract thought-provoking questions."
     ],
-    tech: ["Selenium", "Python", "Tableau", "OSINT"]
+    tech: ["Selenium", "Python", "Tableau", "OSINT"],
+    link: "https://github.com/37bit/Ransomware-PR-Scraper"
   },
   {
     title: "Secure Salary Analysis with Fully Homomorphic Encryption",
@@ -89,7 +91,8 @@ export const PROJECTS: Project[] = [
       "Developed a Python program to perform secure salary analysis and prediction.",
       "Highlighted key challenges with regards to technological scalability and limitations of FHE."
     ],
-    tech: ["Python", "Cryptography", "FHE"]
+    tech: ["Python", "Cryptography", "FHE"],
+    link: "https://github.com/37bit/FHE-Salary-Analysis"
   },
   {
     title: "Analysis of the Spread of Online Misinformation",
@@ -109,7 +112,8 @@ export const PROJECTS: Project[] = [
       "Deep dived into a pig-butchering campaign, employing threat intelligence tools like whois to identify network artifacts.",
       "Modeled the threat using the Diamond Model and leveraged sandboxing tools like VirusTotal."
     ],
-    tech: ["Threat Intel", "Diamond Model", "VirusTotal"]
+    tech: ["Threat Intel", "Diamond Model", "VirusTotal"],
+    link: "https://drive.google.com/drive/folders/1EpkFhI26Qpi2kVg7D_mjTkuBgAZsIPvx"
   },
   {
     title: "Thorax Anomaly Detection using Deep Learning",
@@ -119,7 +123,7 @@ export const PROJECTS: Project[] = [
       "Wrote custom scripts in Python to preprocess data, ensuring data quality and consistency.",
       "Independently learned and implemented robust pipeline for training, evaluation, and hyperparameter tuning."
     ],
-    tech: ["PyTorch", "CNN", "Python"]
+    tech: ["PyTorch", "CNN", "Python"],
   },
   {
     title: "SMU Image Classification with YOLO",
